@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #85b6cf;
+  background: rgba(82, 184, 188);
   transition: background 0.2s ease-in-out;
 }
 
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: rgba(82, 184, 188);
 }
 
 #header.header-transparent {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(82, 184, 188);
   height: 60px;
   padding: 10px 0;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(82, 184, 188, 0.8);
   transition: ease all 0.3s;
 }
 
@@ -164,11 +164,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #1c3745;
+  color: rgba(82, 184, 188);
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #68A4C4;
+  color: rgba(82, 184, 188);
 }
 
 .nav-menu .drop-down > a:after {
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1e4356;
+  background: rgba(82, 184, 188);
   transition: 0.4s;
 }
 
@@ -2025,7 +2025,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: rgb(83,190,170);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2033,7 +2033,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0d2735;
+  background: rgb(83,190,170);
 }
 
 #footer .footer-newsletter h4 {
@@ -2042,7 +2042,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #a2cce3;
+  color: #fff;
 }
 
 #footer .footer-newsletter form {
@@ -2069,7 +2069,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #68A4C4;
+  background: rgb(83,190,170);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2080,9 +2080,9 @@ section {
 }
 
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: rgba(82, 184, 188);
+  border-top: 1px solid rgb(83,190,170);
+  border-bottom: 1px solid rgb(83,190,170);
   padding: 60px 0 30px 0;
 }
 
@@ -2095,7 +2095,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -2110,7 +2110,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1e4356;
+  background: rgb(209,75,46);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2123,7 +2123,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #68A4C4;
+  background: rgba(82, 184, 188);
   color: #fff;
   text-decoration: none;
 }
@@ -2131,7 +2131,7 @@ section {
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2148,7 +2148,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #a2cce3;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
