@@ -561,6 +561,7 @@ section {
 }
 
 .services .icon-box {
+  min-height: 320px;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -573,13 +574,15 @@ section {
 }
 
 .services .icon {
+  position: relative;
   margin: 0 auto 20px auto;
-  padding-top: 17px;
+  /* padding-top: 17px; */
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 72px;
-  height: 72px;
+  width: 95px;
+  height: 95px;
+  background-color: #3fc5d1;
 }
 
 .services .icon i {
@@ -603,7 +606,9 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon {
+/* COLOR VERDE: #41cf2e; */
+
+/* .services .icon-box-pink .icon {
   background: #fceef3;
 }
 
@@ -649,6 +654,30 @@ section {
 
 .services .icon-box-blue:hover {
   border-color: #2282ff;
+} */
+
+.boton-cards-services{
+  height: 30px;
+  width: 50%;
+  background-color: #3fc5d1;
+  color: black;
+  position: absolute;
+  bottom: 15px;
+  left: 25%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.boton-cards-services > a{
+  text-decoration: none;
+  color: black;
+}
+
+.icon-services{
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -712,6 +741,7 @@ section {
 }
 
 .why-us .video-box {
+  margin: auto 0;
   position: relative;
 }
 
