@@ -49,7 +49,7 @@
           <li><a href="software.html">Software</a></li>
           <li><a href="services.html">Servicios</a></li>
           <li><a href="clients.html">Clientes</a></li>
-          <li><a href="news.html">Novedades</a></li>        
+          <li><a href="blog.html">Novedades</a></li>        
           <li><a href="contact.html">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -122,7 +122,7 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
+                  <input type="text" name="name" class="form-control" id="nombre" placeholder="Nombre" data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
@@ -135,7 +135,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Porfavor escribenos algo" placeholder="Mensaje"></textarea>
+                <textarea id="comment" class="form-control" name="message" rows="5" data-rule="required" data-msg="Porfavor escribenos algo" placeholder="Mensaje"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
@@ -143,7 +143,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Su mensaje ha sido enviado con éxito!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              <div class="text-center"><button id="btn-send" type="submit">Enviar mensaje</button></div>
             </form>
           </div>
 
@@ -263,7 +263,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    // window.onerror = new Function("return true");
+    let botonEnviar = document.getElementById("btn-send");
+    var link = "info@digio.com.ar" + "?&subject=" + escape(document.getElementById('subject').value) +
+        "&body=" + "Me llamo " + escape(document.getElementById('nombre').value) + ", " +
+        escape(document.getElementById('comment').value);
+    botonEnviar.addEventListener('click', ()=>{
+      window.location.href = "mailto:" + link;
+    })
+    // console.log(botonEnviar);
 
+
+    // function sendMail() {
+
+    // }
+    </script>
 </body>
 
 </html>
