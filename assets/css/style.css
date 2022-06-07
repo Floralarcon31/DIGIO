@@ -2108,54 +2108,6 @@ section {
   font-size: 14px;
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: rgb(83, 190, 170);
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #fff;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  margin: 3px;
-  background: rgb(83, 190, 170);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #468db3;
-}
-
 #footer .footer-top {
   background: rgba(82, 184, 188);
   border-top: 1px solid rgb(83, 190, 170);
@@ -2279,7 +2231,7 @@ section {
 
 .main-software {
   width: 60%;
-  padding: 5em 0;
+  padding: 5em 0 1em 0;
   margin: 2em auto;
 }
 
@@ -2301,7 +2253,7 @@ section {
 }
 
 .titulo-soft {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 200;
   letter-spacing: -2px;
   color: #dd911f;
@@ -2318,6 +2270,7 @@ section {
 .lista-subsist {
   list-style: none;
   counter-reset: li;
+  padding-left: 1em;
 }
 
 .item-subsist {
@@ -2529,3 +2482,95 @@ section {
     grid-template-rows: auto;
   }
 }
+
+/* SOFTWARE TEMPLATES */
+/* 
+.facts-container{
+  margin: 0 1em;
+} */
+
+.saf-facts{
+  background-color: #FF8800;
+}
+
+.title-software-facts{
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.title-software-facts,
+.software-facts{
+  color: white !important; 
+}
+
+.column-facts{
+  display: flex;
+}
+
+.column-facts > path{
+  width: 100%;
+  margin-right: .5em;
+}
+
+.column-facts > svg{
+  height: 50px;
+  width: 100%;
+  margin-right: .5em;
+}
+
+.column-facts > i{
+  font-size: 40px;
+  color: white;
+  margin-right: .5em;
+}
+
+.titulo-cajycol{
+  color: #d8a300;
+}
+
+.lista-numerica > div{
+  width: 200px;
+}
+
+.subtitulo-soft{
+  color: #727272 !important;
+  margin: .75em 0;
+}
+
+.info-soft h5{
+  font-weight: 300;
+  color: #3f3f3f;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.colycaj-facts{
+  background-color: #d8a300;
+}
+.desc-schedule{
+  font-size: 14px;
+}
+
+.titulo-schedule{
+  color: #58b4c1;
+}
+
+.schedule-facts{
+  background-color: #58b4c1;
+  border-bottom: 1px solid white;
+}
+
+
+.tablero-img{
+  width: 570px;
+  height: 480px;
+}
+
+.titulo-tablero{
+  color: #c65555;
+}
+.tablero-facts{
+  background-color: #c65555;
+}
+
