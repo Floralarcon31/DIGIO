@@ -5,7 +5,9 @@
 Este proyecto fue realizado para Digio SRL, es una empresa que se dedica al desarrollo de software. La misma se encuentra en Salta, Argentina. 
 Fue desarrollado en un template de Bootstrap ha pedido de Digio.Querían una página más rápida que la que tenían y una renovación sin perder sus escencia.
 </p>
-
+<p>
+Link para ver el proyecto: https://floralarcon31.github.io/DIGIO/index.html
+</p>
 ## Dependdencias utilizadas <br>
 - Bootstrap - Framework Moderna <br>
 - FontAwesome - Librería de iconos <br>
