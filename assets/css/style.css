@@ -644,7 +644,7 @@ section {
   border-radius: 5px;
 }
 
-.btn-ver > a{
+.btn-ver>a {
   color: white;
 }
 
@@ -2325,7 +2325,8 @@ section {
 }
 
 /* From uiverse.io */
-.button-cont{
+.button-cont {
+  position: relative;
   margin: .75em 0;
 }
 
@@ -2443,10 +2444,11 @@ section {
 }
 
 @media (max-width: 1121px) {
-  .main-software{
+  .main-software {
     display: flex;
     justify-content: center;
   }
+
   .column-container {
     max-width: 60%;
     grid-template-columns: 1fr;
@@ -2461,15 +2463,17 @@ section {
     justify-content: center;
     gap: 0;
   }
-  .software-img{
+
+  .software-img {
     width: 450px;
     height: 500px;
   }
+
   .front,
   .frontd,
   .edge,
   .edged,
-  .shadow{
+  .shadow {
     width: 360px;
   }
 }
@@ -2489,88 +2493,89 @@ section {
   margin: 0 1em;
 } */
 
-.saf-facts{
+.saf-facts {
   background-color: #FF8800;
 }
 
-.title-software-facts{
+.title-software-facts {
   font-size: 15px;
   font-weight: 700;
   margin-bottom: .5em;
 }
 
 .title-software-facts,
-.software-facts{
-  color: white !important; 
+.software-facts {
+  color: white !important;
 }
 
-.column-facts{
+.column-facts {
   display: flex;
 }
 
-.column-facts > path{
+.column-facts>path {
   width: 100%;
   margin-right: .5em;
 }
 
-.column-facts > svg{
+.column-facts>svg {
   height: 50px;
   width: 100%;
   margin-right: .5em;
 }
 
-.column-facts > i{
+.column-facts>i {
   font-size: 40px;
   color: white;
   margin-right: .5em;
 }
 
-.titulo-cajycol{
+.titulo-cajycol {
   color: #d8a300;
 }
 
-.lista-numerica > div{
+.lista-numerica>div {
   width: 200px;
 }
 
-.subtitulo-soft{
+.subtitulo-soft {
   color: #727272 !important;
   margin: .75em 0;
 }
 
-.info-soft h5{
+.info-soft h5 {
   font-weight: 300;
   color: #3f3f3f;
   font-size: 22px;
   line-height: 32px;
 }
 
-.colycaj-facts{
+.colycaj-facts {
   background-color: #d8a300;
 }
-.desc-schedule{
+
+.desc-schedule {
   font-size: 14px;
 }
 
-.titulo-schedule{
+.titulo-schedule {
   color: #58b4c1;
 }
 
-.schedule-facts{
+.schedule-facts {
   background-color: #58b4c1;
   border-bottom: 1px solid white;
 }
 
 
-.tablero-img{
+.tablero-img {
   width: 570px;
   height: 480px;
 }
 
-.titulo-tablero{
+.titulo-tablero {
   color: #c65555;
 }
-.tablero-facts{
+
+.tablero-facts {
   background-color: #c65555;
 }
-
