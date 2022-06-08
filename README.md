@@ -1,4 +1,4 @@
-# <img width="50px" alt="logo" src="../assets/img/logoDigio.png"> 
+# <img width="50px" alt="logo" src="/assets/img/logoDigio.png"> 
 
 ##De que se trata este proyecto?
 <p>
