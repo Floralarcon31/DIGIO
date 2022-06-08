@@ -8,6 +8,7 @@ Fue desarrollado en un template de Bootstrap ha pedido de Digio.Querían una pá
 <p>
 Link para ver el proyecto: https://floralarcon31.github.io/DIGIO/index.html
 </p>
+
 ## Dependdencias utilizadas <br>
 - Bootstrap - Framework Moderna <br>
 - FontAwesome - Librería de iconos <br>
