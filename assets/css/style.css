@@ -2114,7 +2114,7 @@ section {
 }
 
 #footer .footer-top {
-  background: rgba(82, 184, 188);
+  background: black;
   border-top: 1px solid rgb(83, 190, 170);
   border-bottom: 1px solid rgb(83, 190, 170);
   padding: 60px 0 30px 0;
@@ -2144,7 +2144,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgb(209, 75, 46);
+  background: rgba(82, 184, 188);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2157,7 +2157,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: rgba(82, 184, 188);
+  background: rgb(45, 165, 143);
   color: #fff;
   text-decoration: none;
 }
@@ -2219,13 +2219,15 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  font-size: 12px;
+  color: #a2cce3;
 }
 
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
-  color: #fff;
+  font-size: 12px;
+  color: #a2cce3;
 }
 
 #footer .credits a {
