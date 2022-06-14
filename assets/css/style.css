@@ -2363,33 +2363,6 @@ section {
   touch-action: manipulation;
 }
 
-.shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: hsl(0deg 0% 0% / 0.25);
-  will-change: transform;
-  transform: translateY(2px);
-  transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
-}
-
-.edge {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: linear-gradient(to left,
-      hsl(36deg 100% 16%) 0%,
-      hsl(36deg 100% 32%) 8%,
-      hsl(36deg 100% 32%) 92%,
-      hsl(36deg 100% 16%) 100%);
-}
-
 .front {
   min-width: 270px;
   text-align: center;
@@ -2403,21 +2376,9 @@ section {
   will-change: transform;
   transform: translateY(-4px);
   transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+  box-shadow: 0 5px 0 hsl(36, 100%, 42%);
 }
 
-.edged {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: linear-gradient(to left,
-      hsl(200deg 100% 16%) 0%,
-      hsl(200deg 100% 32%) 8%,
-      hsl(200deg 100% 32%) 92%,
-      hsl(200deg 100% 16%) 100%);
-}
 
 .frontd {
   min-width: 270px;
@@ -2428,10 +2389,11 @@ section {
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
-  background: hsl(200, 100%, 40%);
+  background: #08c;
   will-change: transform;
   transform: translateY(-4px);
   transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+  box-shadow: 0 5px 0 #006394;
 }
 
 .button-descargar:hover {
@@ -2447,16 +2409,6 @@ section {
 .button-descargar:active .front,
 .button-descargar:active .frontd {
   transform: translateY(-2px);
-  transition: transform 34ms;
-}
-
-.button-descargar:hover .shadow {
-  transform: translateY(4px);
-  transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
-}
-
-.button-descargar:active .shadow {
-  transform: translateY(1px);
   transition: transform 34ms;
 }
 
@@ -2540,8 +2492,9 @@ section {
 
 .column-facts>svg {
   height: 50px;
-  width: 100%;
-  margin-right: .5em;
+  width: 50px;
+  flex-shrink: 0;
+  margin-right: 0.5em;
 }
 
 .column-facts>i {
@@ -2648,3 +2601,30 @@ section {
   width: 570px;
 }
 
+.titulo-salud{
+  color: #008894
+}
+
+.info-soft strong{
+  font-size: 14px;
+}
+
+.banner-section{
+  padding-top: 0;
+  text-align: center;
+  background-color: rgb(242, 242, 242)
+}
+
+.salud-facts{
+  background-color: #59baa4;
+}
+
+.icon-facts{
+  text-align: center;
+  padding: 2em 3em;
+}
+
+.icon-facts > .software-desc > span{
+  margin-top: 2em;
+  text-align: center;
+}
