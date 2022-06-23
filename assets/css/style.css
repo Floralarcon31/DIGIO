@@ -1596,18 +1596,23 @@ section {
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
+
 }
+
 
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
 }
 
 .blog .entry .entry-img {
-  max-height: 400px;
+  max-height: 600px;
+  text-align: center;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
+
 }
 
 .blog .entry .entry-title {
